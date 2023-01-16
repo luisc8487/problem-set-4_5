@@ -21,8 +21,17 @@ class Rectangle extends Quadrilateral {
   }
 }
 
-class Square {
-
+class Square extends Rectangle {
+  constructor(side1){
+    super(side1)
+    this.side1 = side1;
+    this.side2 = side1;
+    this.side3 = side1;
+    this.side4 = side1;
+  }
+  getDiagonal(){
+    return Math.sqrt(this.side1**2 + this.side2**2)  
+  }
 }
 
 class Person {
