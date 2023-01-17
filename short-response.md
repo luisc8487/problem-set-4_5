@@ -5,7 +5,7 @@
 **1. What is inheritance in programming?**
 
 Inheritance in programming is a substitute class that inherits methods from the main class.
-Its like Luis Jr., which is a descendent from Luis Sr, inherits the properties and assists from Luis Sr.
+Its like Luis Jr., which is a descendent of Luis Sr, inherits the properties and assists from Luis Sr.
 
 **2. In a code snippet, demonstrate inheritance by creating two classes where one is the parent class and one is the child class.**
 
