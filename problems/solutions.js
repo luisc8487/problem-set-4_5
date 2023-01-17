@@ -11,13 +11,13 @@ class Quadrilateral {
 }
 
 class Rectangle extends Quadrilateral {
-  constructor(side1, side2){
-    super(side1, side2)
-    this.side3 = side1;
-    this.side4 = side2;
+  constructor(length, width){
+    super(length, width)
+    this.side3 = length;
+    this.side4 = width;
   }
   getArea(){
-    return this.side1 * this.side2;
+    return this.side3 * this.side4;
   }
 }
 
