@@ -35,11 +35,11 @@ jake.job();     // "Hello Jake, you are a Professor!"
 
 **3. What is polymorphism? Show an example in a code snippet.**
 
-(__Poly__ = many) + (__morphism__ = forms) = many forms
+(**Poly** = many) + (**morphism** = forms) = many forms
 
-__Polymorphism__ is one of the four pillars that make up Object Orientated Programming. 
+**Polymorphism** is one of the four pillars that make up Object Orientated Programming. 
 
-__Polymorphism__ is a technique that allows the programmer can write multiple types of objects to share the same property and method names even if their implementation is different. 
+**Polymorphism** is a technique that allows the programmer can write multiple types of objects to share the same property and method names even if their implementation is different. 
 ```js
 class Person{
     constructor(name){
@@ -64,4 +64,4 @@ const jake = new Profession("Jake", "Professor");
 jake.job();     // "Hello Jake, you are a Professor!"
 ```
 
-Let us use the same example I gave before. The code above demonstrates polymorphism since `jake` is a descendent of `Person` which we have defined as a `greetPerson` method. Yet `jake` was constructed based on `Profession`. `Profession` is a descendant of `Person`. So we can treat `jake` or `Profession` as `Person` objects as well. Hence, why Person can come in many forms.
+Let us use the same example I gave before. The code above demonstrates polymorphism since `jake` is a descendent of `Person` which we have defined as a `greetPerson` method. Yet `jake` was constructed based on `Profession`. `Profession` is a descendant of `Person`. So we can treat `jake` or `Profession` as `Person` objects as well. Hence, why `Person` can come in many forms.
