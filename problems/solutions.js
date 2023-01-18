@@ -12,7 +12,7 @@ class Quadrilateral {
 
 class Rectangle extends Quadrilateral {
   constructor(length, width){
-    super(length, width)
+    super(length, width, length, width)
     this.side3 = length;
     this.side4 = width;
   }
