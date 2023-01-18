@@ -35,8 +35,28 @@ class Square extends Rectangle {
 }
 
 class Person {
-
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    getInfo(status) {
+        console.log(`${this.name}, age ${this.age} | ${status}`)
+    }
 }
+
+class Stats extends Person {
+    constructor(name, age, dribble, pace) {
+        super(name, age)
+        this.pace = pace;
+        this.dribble = dribble;
+    }
+    skill() {
+        this.getInfo(`Pace: ${this.pace} Dribble: ${this.dribble}`);
+    }
+}
+
+const luis = new Stats("Luis", 23, 92, 85);
+luis.skill();
 
 module.exports = {
   Quadrilateral,
